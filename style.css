@@ -1,0 +1,25 @@
+body {
+  background-color: orange;
+}
+
+.big-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 20px;
+}
+.small-container {
+  display: flex;
+  background-color: white;
+  border-end-end-radius: 20px;
+  border-radius: 20px;
+  border-start-end-radius: 20px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.contents {
+  padding: 10px 10px 10px 20px;
+}
